@@ -2,6 +2,8 @@
 This code generates the largest class that ASM can generate, whose size is
 `2_147_483_645` bytes, the maximum size of a JVM array.
 
+## Information of generated class
+
 Generated class is executable. It does nothing but prints an empty line to
 stdout (after a long init phase).
 
@@ -16,3 +18,7 @@ is a public interface, which has:
 
 SHA-256 of `Code.class` (after decompression):
 `984990b558cc9e1d64a31ed0a4e54f5326b68ba8d103c61e25fd43356829310f`
+
+## Build environment
+`ASMGenAttributedClass.java` is compiled and run on Java 21, with `org.ow2.asm:asm:9.9.1`
+on classpath.
