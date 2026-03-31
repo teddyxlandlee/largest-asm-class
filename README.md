@@ -22,3 +22,8 @@ SHA-256 of `Code.class` (after decompression):
 ## Build environment
 `ASMGenAttributedClass.java` is compiled and run on Java 21, with `org.ow2.asm:asm:9.9.1`
 on classpath.
+
+## Update: `UUUUUU.class`
+This class differs from `Code.class` in:
+- Class name: `UUUUUU`; and
+- No longer has orphan constant in constant pool.
